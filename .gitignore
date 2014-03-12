@@ -1,0 +1,15 @@
+## Pelican
+output/*
+*.pid
+
+## Python
+*.py[cod]
+.python-version
+
+## Mac OS X
+.DS_Store
+.*~
+*~
+
+## Vim
+*.swp
