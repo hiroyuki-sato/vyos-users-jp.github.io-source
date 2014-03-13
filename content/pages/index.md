@@ -33,7 +33,8 @@ VyOS とは
 
 * 日本語
     * [『Vyatta』からフォークした『VyOS』をインストールしてみた](http://orebibou.blogspot.jp/2014/01/vyattavyos.html)
-    * [VyOS に SoftEther VPN Server をインストール](http://www.higebu.com/blog/2014/03/08/how-to-install-softether-vpn-server-to-vyos/#.UyBY83V_t2P)
+    * [VyOS に SoftEther VPN Server をインストール](http://www.higebu.com/blog/2014/03/08/how-to-install-softether-vpn-server-to-vyos/)
+    * [VyOS の Vagrant 用 box を Vagrant Cloud にアップしました](http://www.higebu.com/blog/2014/03/13/put-vyos-box-to-vagrant-cloud/)
 
 TODO
 ----
