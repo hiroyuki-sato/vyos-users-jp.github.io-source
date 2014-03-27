@@ -17,7 +17,7 @@ VyOS とは
 ダウンロード
 ------------
 
-* 本家: <http://mirror.symnds.com/software/vyos/iso/release/>
+* 本家: <http://mirror.vyos.net/iso/release/>
 * 日本のミラー: <http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/>
 
 リンク集
