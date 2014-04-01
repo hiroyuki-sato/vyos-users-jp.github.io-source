@@ -32,7 +32,7 @@ VyOS とは
     * [Foram](http://forum.vyos.net/)
 
 * 日本語
-    * [Google Group - vyos-jp](http://groups.google.com/d/forum/vyos-jp)
+    * [Google Group - vyos-users-jp](http://groups.google.com/d/forum/vyos-users-jp)
     * [Twitter](https://twitter.com/vyosjp)
     * ブログ
         * [『Vyatta』からフォークした『VyOS』をインストールしてみた](http://orebibou.blogspot.jp/2014/01/vyattavyos.html)
