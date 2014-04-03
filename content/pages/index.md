@@ -1,5 +1,5 @@
 Title: Home
-Date: 2014-03-12 21:55:40
+Date: 2014-04-03 23:37:50
 URL: index.html
 save_as: index.html
 Author: vyos-users.jp
@@ -23,6 +23,10 @@ VyOS とは
 リンク集
 --------
 
+* 日本語
+    * [Wiki](http://wiki.vyos-users.jp)
+    * [Google Group - vyos-users-jp](http://groups.google.com/d/forum/vyos-users-jp)
+    * [Twitter](https://twitter.com/vyosjp)
 * 英語
     * [vyos.net](http://vyos.net/)
     * [Development blog](http://vyos-dev.tumblr.com/)
@@ -30,17 +34,12 @@ VyOS とは
     * [Bugtracker](http://bugzilla.vyos.net/)
     * [IRC (#vyos on freenode)](https://webchat.freenode.net/?channels=#vyos)
     * [Foram](http://forum.vyos.net/)
-
-* 日本語
-    * [Google Group - vyos-users-jp](http://groups.google.com/d/forum/vyos-users-jp)
-    * [Twitter](https://twitter.com/vyosjp)
-    * ブログ
-        * [『Vyatta』からフォークした『VyOS』をインストールしてみた](http://orebibou.blogspot.jp/2014/01/vyattavyos.html)
-        * [VyOS に SoftEther VPN Server をインストール](http://www.higebu.com/blog/2014/03/08/how-to-install-softether-vpn-server-to-vyos/)
-        * [VyOS の Vagrant 用 box を Vagrant Cloud にアップしました](http://www.higebu.com/blog/2014/03/13/put-vyos-box-to-vagrant-cloud/)
+* ブログ（日本語）
+    * [『Vyatta』からフォークした『VyOS』をインストールしてみた](http://orebibou.blogspot.jp/2014/01/vyattavyos.html)
+    * [VyOS に SoftEther VPN Server をインストール](http://www.higebu.com/blog/2014/03/08/how-to-install-softether-vpn-server-to-vyos/)
+    * [VyOS の Vagrant 用 box を Vagrant Cloud にアップしました](http://www.higebu.com/blog/2014/03/13/put-vyos-box-to-vagrant-cloud/)
 
 TODO
 ----
 
-* 本家Wikiの翻訳サイト作成
-* 本家開発ブログの翻訳サイト作成
+* 本家Wikiの翻訳
