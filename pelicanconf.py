@@ -27,3 +27,6 @@ THEME = 'theme'
 BOOTSTRAP_NAVBAR_INVERSE = True
 HIDE_SIDEBAR = True
 CC_LICENSE = 'by-nc-sa'
+
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = [('Wiki', 'http://wiki.vyos-users.jp')]

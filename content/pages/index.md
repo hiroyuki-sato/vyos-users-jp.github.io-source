@@ -27,6 +27,7 @@ VyOS とは
     * [Wiki](http://wiki.vyos-users.jp)
     * [Google Group - vyos-users-jp](http://groups.google.com/d/forum/vyos-users-jp)
     * [Twitter](https://twitter.com/vyosjp)
+        * [ハッシュタグ #vyosjp](https://twitter.com/search?q=%23vyosjp&src=typd&f=realtime)
 * 英語
     * [vyos.net](http://vyos.net/)
     * [Development blog](http://vyos-dev.tumblr.com/)
