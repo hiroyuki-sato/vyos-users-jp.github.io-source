@@ -34,7 +34,7 @@ VyOS とは
     * [Twitter](https://twitter.com/vyos_dev)
     * [Bugtracker](http://bugzilla.vyos.net/)
     * [IRC (#vyos on freenode)](https://webchat.freenode.net/?channels=#vyos)
-    * [Foram](http://forum.vyos.net/)
+    * [Forum](http://forum.vyos.net/)
 * ブログ（日本語）
     * [『Vyatta』からフォークした『VyOS』をインストールしてみた](http://orebibou.blogspot.jp/2014/01/vyattavyos.html)
     * [VyOS に SoftEther VPN Server をインストール](http://www.higebu.com/blog/2014/03/08/how-to-install-softether-vpn-server-to-vyos/)
