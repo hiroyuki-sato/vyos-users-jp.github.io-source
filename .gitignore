@@ -1,5 +1,6 @@
 ## Pelican
 output/*
+publich/*
 *.pid
 
 ## Python
