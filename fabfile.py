@@ -29,14 +29,14 @@ def clean():
         local('rm -rf {publish_path}'.format(**env))
 
 def build():
-    local('pelican -s pelicanconf.py')
+    local('pelican content -s pelicanconf.py')
 
 def rebuild():
     clean()
     build()
 
 def regenerate():
-    local('pelican -r -s pelicanconf.py')
+    local('pelican content -r -s pelicanconf.py')
 
 def serve():
     os.chdir(env.deploy_path)
@@ -55,7 +55,7 @@ def reserve():
     serve()
 
 def preview():
-    local('pelican -s publishconf.py')
+    local('pelican content -s publishconf.py')
 
 def cf_upload():
     rebuild()
@@ -67,7 +67,7 @@ def cf_upload():
 
 @hosts(production)
 def publish():
-    local('pelican -s publishconf.py')
+    local('pelican content -s publishconf.py')
     project.rsync_project(
         remote_dir=dest_path,
         exclude=".DS_Store",
@@ -77,7 +77,7 @@ def publish():
 
 def deploy():
     clean()
-    local('pelican -s publishconf.py')
+    local('pelican content -s publishconf.py')
     local('git clone git@github.com:vyos-users-jp/vyos-users-jp.github.io.git publish')
     local('cd {publish_path} && git pull'.format(**env))
     for f in os.listdir(PUBLISH_PATH):
