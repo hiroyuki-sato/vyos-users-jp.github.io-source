@@ -23,7 +23,7 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = (['extra/CNAME'])
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
-THEME = 'theme'
+THEME = 'vyos-users-jp.github.io-theme'
 BOOTSTRAP_NAVBAR_INVERSE = True
 HIDE_SIDEBAR = True
 CC_LICENSE = 'by-nc-sa'

@@ -14,7 +14,6 @@ vyos-users-jp.github.io-source
         * Pelican
         * Markdown
         * Fabric
-
 1. Python 2.7.x と pip をインストール
 2. 必要なパッケージをインストール `pip install -r requirements.txt`
 3. ソースコードを取得 `git clone --recursive https://github.com/vyos-users-jp/vyos-users-jp.github.io-source.git`
