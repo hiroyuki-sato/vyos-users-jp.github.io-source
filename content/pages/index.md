@@ -21,8 +21,14 @@ VyOS とは
 * 日本のミラー: <http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/>
 * 現在の最新版は1.0.4です
 
+Meeting
+-------
+
+* [VyOS Users Meeting Japan #1](http://vyosjp.connpass.com/event/6704/)
+    * [懇親会](http://vyosjp.connpass.com/event/7217/)
+
 情報源
---------
+------
 
 * 日本語
     * [Wiki](http://wiki.vyos-users.jp)
@@ -52,5 +58,3 @@ TODO
 ----
 
 * 本家Wikiの翻訳 [翻訳中の日本語wiki](http://wiki.vyos-users.jp)
-
-
