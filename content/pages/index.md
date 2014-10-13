@@ -19,7 +19,7 @@ VyOS とは
 
 * 本家: <http://mirror.vyos.net/iso/release/>
 * 日本のミラー: <http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/>
-* 現在の最新版は1.0.5です
+* 現在の最新版は1.1.0です
 
 Meeting
 -------
