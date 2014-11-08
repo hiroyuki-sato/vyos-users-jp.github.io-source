@@ -1,6 +1,6 @@
 ## Pelican
 output
-publich
+publish
 *.pid
 
 ## Python
