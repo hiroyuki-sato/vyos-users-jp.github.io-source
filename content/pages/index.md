@@ -17,8 +17,10 @@ VyOS とは
 ダウンロード
 ------------
 
-* 本家: <http://mirror.vyos.net/iso/release/>
-* 日本のミラー: <http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/>
+* 本家: 
+* 日本のミラー: 
+    * <http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/>
+    * <http://mirror.vyos.net/iso/release/>
 * 現在の最新版は [1.1.0](http://wiki.vyos-users.jp/1.1.0/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88) です
 
 ミーティング
