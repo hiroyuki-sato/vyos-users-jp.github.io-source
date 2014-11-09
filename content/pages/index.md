@@ -24,7 +24,8 @@ VyOS とは
 Meeting
 -------
 
-* [VyOS Users Meeting Japan #1](http://vyosjp.connpass.com/event/6704/)
+* 2014/11/02 [VyOS Users Meeting Japan #2](http://vyosjp.connpass.com/event/9667/)
+* 2014/07/27 [VyOS Users Meeting Japan #1](http://vyosjp.connpass.com/event/6704/)
     * [懇親会](http://vyosjp.connpass.com/event/7217/)
 
 情報源
@@ -43,6 +44,7 @@ Meeting
         * [VyOS build-iso環境の作り方](https://gist.github.com/hiroyuki-sato/9972631)
     * 発表スライド
         * [VYATTA USERS MEETING Spring 2014 VyOS](http://www.slideshare.net/higebu/vyatta-users-meeting-spring-2014-vyos)
+        * [VyOS(ヴィワイオーエス)の次期バージョンを試してみた+EdgeOSについて調べてみた。- ENOG28 Meeting -](http://enog.jp/wp-content/uploads/2014/09/ftoyama_enog28.pdf)
     * 設定例
         * [Unbreakable VPN using Vyatta/VyOS - HOW TO -](http://www.slideshare.net/naotomatsumoto/unbreakable-vpntunnelingusingvyatta20140513v5)
 
