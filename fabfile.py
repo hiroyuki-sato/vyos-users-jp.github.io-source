@@ -12,13 +12,13 @@ env.publish_path = 'publish'
 PUBLISH_PATH = env.publish_path
 
 # Remote server configuration
-production = 'root@localhost:22'
-dest_path = '/var/www'
+#production = 'root@localhost:22'
+#dest_path = '/var/www'
 
 # Rackspace Cloud Files configuration settings
-env.cloudfiles_username = 'my_rackspace_username'
-env.cloudfiles_api_key = 'my_rackspace_api_key'
-env.cloudfiles_container = 'my_cloudfiles_container'
+#env.cloudfiles_username = 'my_rackspace_username'
+#env.cloudfiles_api_key = 'my_rackspace_api_key'
+#env.cloudfiles_container = 'my_cloudfiles_container'
 
 
 def clean():
@@ -28,17 +28,18 @@ def clean():
     if os.path.isdir(PUBLISH_PATH):
         local('rm -rf {publish_path}'.format(**env))
 
-def build():
-    local('pelican content -s pelicanconf.py')
+#def build():
+#    local('pelican content -s pelicanconf.py')
 
-def rebuild():
-    clean()
-    build()
+#def rebuild():
+#    clean()
+#    build()
 
-def regenerate():
-    local('pelican content -r -s pelicanconf.py')
+#def regenerate():
+#    local('pelican content -r -s pelicanconf.py')
 
 def serve():
+    preview()
     os.chdir(env.deploy_path)
 
     PORT = 8000
@@ -50,30 +51,31 @@ def serve():
     sys.stderr.write('Serving on port {0} ...\n'.format(PORT))
     server.serve_forever()
 
-def reserve():
-    build()
-    serve()
+#def reserve():
+#    preview()
+#    serve()
 
 def preview():
+    clean()
     local('pelican content -s publishconf.py')
 
-def cf_upload():
-    rebuild()
-    local('cd {deploy_path} && '
-          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-          '-U {cloudfiles_username} '
-          '-K {cloudfiles_api_key} '
-          'upload -c {cloudfiles_container} .'.format(**env))
+#def cf_upload():
+#    rebuild()
+#    local('cd {deploy_path} && '
+#          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
+#          '-U {cloudfiles_username} '
+#          '-K {cloudfiles_api_key} '
+#          'upload -c {cloudfiles_container} .'.format(**env))
 
-@hosts(production)
-def publish():
-    local('pelican content -s publishconf.py')
-    project.rsync_project(
-        remote_dir=dest_path,
-        exclude=".DS_Store",
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-        delete=True
-    )
+#@hosts(production)
+#def publish():
+#    local('pelican content -s publishconf.py')
+#    project.rsync_project(
+#        remote_dir=dest_path,
+#        exclude=".DS_Store",
+#        local_dir=DEPLOY_PATH.rstrip('/') + '/',
+#        delete=True
+#    )
 
 def deploy():
     clean()
