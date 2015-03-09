@@ -22,6 +22,7 @@ VyOS とは
     * <http://mirror.vyos.net/iso/release/>
 * 日本のミラー: 
     * [筑波大学](http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/)
+* [Vagrant box](https://atlas.hashicorp.com/higebu/boxes/vyos-1.1.3-amd64) (非公式)
 
 ミーティング
 -------
