@@ -33,15 +33,20 @@ VyOS とは
 * [VyOS Users Meeting Japan #1](http://vyosjp.connpass.com/event/6704/) (2014/07/27)
     * [懇親会](http://vyosjp.connpass.com/event/7217/)
 
+コミュニティ
+------
+
+* [Twitter](https://twitter.com/vyosjp)
+    * [ハッシュタグ #vyosjp](https://twitter.com/search?q=%23vyosjp&src=typd&f=realtime)
+    * 最も活発です。
+* [IRC (#vyosjp on freenode)](https://webchat.freenode.net/?channels=#vyosjp)
+* [Google Group - vyos-users-jp](http://groups.google.com/d/forum/vyos-users-jp)
+
 情報源
 ------
 
 * 日本語
     * [Wiki](http://wiki.vyos-users.jp)
-    * [Google Group - vyos-users-jp](http://groups.google.com/d/forum/vyos-users-jp)
-    * [IRC (#vyosjp on freenode)](https://webchat.freenode.net/?channels=#vyosjp)
-    * [Twitter](https://twitter.com/vyosjp)
-        * [ハッシュタグ #vyosjp](https://twitter.com/search?q=%23vyosjp&src=typd&f=realtime)
     * ブログ等
         * [『Vyatta』からフォークした『VyOS』をインストールしてみた](http://orebibou.blogspot.jp/2014/01/vyattavyos.html)
         * [VyOS に SoftEther VPN Server をインストール](http://www.higebu.com/blog/2014/03/08/how-to-install-softether-vpn-server-to-vyos/)
