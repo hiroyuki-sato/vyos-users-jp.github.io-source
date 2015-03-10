@@ -13,7 +13,7 @@ VyOS とは
 ---------
 
 * Vyatta からフォークしたオープンソースのネットワーク OS で、ソフトウェアベースのルーティング、ファイアウォール、VPNなどの機能を持っています。
-* 現在の最新版は [1.1.3](http://wiki.vyos-users.jp/1.1.0/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%231.1.3) です。
+* 現在の最新版は [1.1.4](http://wiki.vyos-users.jp/1.1.0/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%8E%E3%83%BC%E3%83%88%231.1.4) です。
 
 ダウンロード
 ------------
@@ -22,7 +22,7 @@ VyOS とは
     * <http://mirror.vyos.net/iso/release/>
 * 日本のミラー: 
     * [WIDE Project 筑波NOC](http://ftp.tsukuba.wide.ad.jp/software/vyos/iso/release/)
-* [Vagrant box](https://atlas.hashicorp.com/higebu/boxes/vyos-1.1.3-amd64) (非公式)
+* [Vagrant box](https://atlas.hashicorp.com/higebu/boxes/vyos-1.1.4-amd64) (非公式)
 
 ミーティング
 -------
